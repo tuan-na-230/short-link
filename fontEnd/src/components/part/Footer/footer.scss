@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #e4e4e4;
+    small {
+        color: #545454;
+        font-size: 14px;
+    }
+    .social-contact {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        margin: 0px;
+        .social-contact-item {
+            height: 100%;
+            padding: 0 10px;
+            font-size: 16px;
+            
+        };
+        a {
+            color: #545454;
+        };
+        a:hover {
+            color: #823eb7;
+        }
+    }
+
+}

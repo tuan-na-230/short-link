@@ -1,0 +1,40 @@
+$phone: "(min-width: 360px) and (max-width: 768px)";
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";
+
+.not-found {
+    font-family: "Proxima Nova", Arial, sans-serif;
+    text-align: center;
+    margin-top: 190px;
+    color: #36383b;
+    .not-found-img {
+        width: 200px;
+        height: auto;
+        padding: 0px 0px 50px 0px;
+    }
+    .not-found-info {
+        margin: 0px 300px;
+        text-align: center;
+        @media #{$tablet} {
+            margin: 0px 200px;
+          };
+        @media #{$phone} {
+            margin: 0px 0px;
+        };
+        .not-found-title {
+            padding: 0px 0px 16px 0px;
+            margin: 0px;
+            h1 {
+                font-size: 64px;
+            }
+        };
+        .not-found-content {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            opacity: .7;
+            padding: 0px 50px 0px 50px;
+            margin: 0 auto;
+        }
+    }
+}

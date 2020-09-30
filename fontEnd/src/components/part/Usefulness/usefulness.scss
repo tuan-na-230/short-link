@@ -1,0 +1,31 @@
+.usefulness {
+    padding: 50px 50px;
+    border-top: 1px solid #e4e4e4;
+    .title-usefulness {
+        padding: 10px;
+      font-size: 26px;
+      font-weight: 300;
+    }
+    .col-md-4{
+        width: 100%;
+        img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+    }
+    .col-md-4:hover {
+        cursor: pointer;
+        box-shadow: 5px 5px 5px 5px #e4e4e4;
+    }
+}
+
+.content {
+    color: #333;
+    padding: 15px;
+    h1 {
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: .08em;
+    }
+}

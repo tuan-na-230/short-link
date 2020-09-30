@@ -1,0 +1,36 @@
+.link-result {
+    width: 100%;
+    .col-md-11{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 5px;
+        margin: 0px;
+        border: 1px solid #e4e4e4;
+        border-radius: 5px;
+        background-color: #fff;
+        font-size: 16px;
+        .long-link {
+            max-width: 45%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        };
+        .short-link {
+                padding: 0px 5px;
+                max-width: 45%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+        } 
+    }
+    .col-md-1{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        button {
+            width: 100%;
+        }
+    }
+    
+}

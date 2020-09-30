@@ -1,0 +1,23 @@
+.qr-result {
+        background-color: #ddd;
+        border-radius: 10px;
+        padding: 10px;
+    .qr-result-header {
+        display: flex;
+        justify-content: center;
+        .qr-controller {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+    .download {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding: 15px 10px 0px 10px;
+    }
+}
+
